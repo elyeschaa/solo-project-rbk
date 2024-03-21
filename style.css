@@ -1,0 +1,54 @@
+body {
+  margin: auto;
+
+  background-image: url("https://img.freepik.com/premium-photo/blurred-bookshelf-many-old-books-book-shop-library_327072-7345.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/* header {
+  background-color: #333;
+  padding: 1px;
+}
+footer {
+  background-color: #333;
+  padding: 1px;
+} */
+
+h1 {
+  text-align: center;
+  font-size: 15px;
+  font-family: monospace;
+  color: red;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: monospace;
+  color: white;
+  
+}
+.img {
+  border-radius: 100px;
+  height: 500px;
+  width: 390px;
+  margin: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px black solid;
+}
+#items {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 90px;
+}
+.item {
+  background-color: beige;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 3px black solid;
+  width: 400px;
+}
