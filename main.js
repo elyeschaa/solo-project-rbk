@@ -119,9 +119,7 @@ function each(array, func) {
   }
 }
 
-
 var allImages = $(".img");
-
 
 var linkUrl = [
   "https://en.wikipedia.org/wiki/Night_and_Day_(Woolf_novel)",
@@ -135,10 +133,8 @@ var linkUrl = [
   "https://www.psupress.org/books/titles/0-271-01468-7.html",
 ];
 
-
 allImages.each(function (index) {
   $(this).click(function () {
-    
     window.open(linkUrl[index]);
   });
 });
