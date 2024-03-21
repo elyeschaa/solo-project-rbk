@@ -119,10 +119,10 @@ function each(array, func) {
   }
 }
 
-// Get a reference to all image elements by their class
+
 var allImages = $(".img");
 
-// Define the URL you want to link to for each image
+
 var linkUrl = [
   "https://en.wikipedia.org/wiki/Night_and_Day_(Woolf_novel)",
   "https://www.goodreads.com/book/show/35992.The_Black_Book",
@@ -135,10 +135,10 @@ var linkUrl = [
   "https://www.psupress.org/books/titles/0-271-01468-7.html",
 ];
 
-// Attach a click event handler to each image
+
 allImages.each(function (index) {
   $(this).click(function () {
-    // Open the URL for the corresponding image in a new window
+    
     window.open(linkUrl[index]);
   });
 });
